@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   btn1.addEventListener('click', (e) => {
     e.preventDefault();
-    factContainer.innerHTML = 'Hector criou o maior número de chances na partida. <span class="highlight">4</span>';
+    factContainer.innerHTML = 'Hector foi o jogador que mais sofreu faltas na partida. <span class="highlight">5</span>';
   });
 
   btn2.addEventListener('click', (e) => {
     e.preventDefault();
-    factContainer.innerHTML = 'Hector acertou a trave 1 vezes em um total de 4 chutes. <span class="highlight">1/4</span>';
+    factContainer.innerHTML = 'Hector acertou a trave 1 vez em um total de 1 chute. <span class="highlight">1/1</span>';
   });
-});
+});         
